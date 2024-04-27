@@ -9,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 //Inversion Of Control Pattern (IOC)
 builder.Services.AddScoped<IAlunoRepository, AlunoRepositorySqlServer>();
+builder.Services.AddScoped<IDisciplinaRepository, DisciplinaRepositorySqlServer>();
+builder.Services.AddScoped<IMatriculaRepository, MatriculaRepositorySqlServer>();
 builder.Services.AddScoped<SqlServerContext, SqlServerContext>();
 
 builder.Services.AddControllers().AddJsonOptions(x =>

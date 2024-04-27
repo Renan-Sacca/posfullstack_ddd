@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{5796
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{37962354-D1B7-44D7-9846-CEA283497381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infra.SqlServer", "DDD.Infra.SqlServer\DDD.Infra.SqlServer.csproj", "{EC69A68F-98FD-4BBB-BC6B-AA861A898A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infra.SqlServer", "DDD.Infra.SqlServer\DDD.Infra.SqlServer.csproj", "{EC69A68F-98FD-4BBB-BC6B-AA861A898A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Application.API", "DDD.Application.API\DDD.Application.API.csproj", "{A6FC97A1-2AB3-4FFB-8889-25E10DFB22D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Application.API", "DDD.Application.API\DDD.Application.API.csproj", "{A6FC97A1-2AB3-4FFB-8889-25E10DFB22D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
